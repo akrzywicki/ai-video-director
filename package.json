@@ -1,0 +1,51 @@
+{
+  "name": "ai-video-director",
+  "version": "1.0.0",
+  "description": "Tutorial repo: code-first vertical explainer videos with Remotion + timeline-driven direction",
+  "author": "Alex Krzywicki <https://github.com/akrzywicki>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akrzywicki/ai-video-director"
+  },
+  "engines": {
+    "node": "^20.19.0 || ^22.13.0 || >=24"
+  },
+  "private": false,
+  "dependencies": {
+    "@react-three/fiber": "^9.5.0",
+    "@remotion/cli": "4.0.539",
+    "@remotion/media": "4.0.539",
+    "@remotion/three": "4.0.539",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.539",
+    "three": "^0.178.0"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config-flat": "4.0.539",
+    "@types/react": "19.2.7",
+    "@types/three": "^0.178.0",
+    "@types/web": "0.0.166",
+    "eslint": "10.12.0",
+    "prettier": "3.8.1",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion bundle",
+    "upgrade": "remotion upgrade",
+    "lint": "eslint src && tsc",
+    "timeline:build": "node scripts/build-timeline.mjs",
+    "pipeline:voice": "node scripts/generate-voiceover.mjs",
+    "pipeline:timestamps": "node scripts/generate-timestamps.mjs",
+    "pipeline:sync": "npm run pipeline:voice && npm run pipeline:timestamps && npm run timeline:build",
+    "render:still": "remotion still src/index.ts PoolBuild docs/preview/frame-mid.png --frame=375",
+    "render:stills": "remotion still src/index.ts PoolBuild docs/preview/frame-start.png --frame=30 && remotion still src/index.ts PoolBuild docs/preview/frame-excavate.png --frame=60 && remotion still src/index.ts PoolBuild docs/preview/frame-flow.png --frame=600",
+    "render:pool": "remotion render src/index.ts PoolBuild out/pool-build.mp4",
+    "render:preview": "remotion render src/index.ts PoolBuild out/pool-build-preview.mp4 --frames=0-149"
+  },
+  "allowScripts": {
+    "esbuild": false
+  }
+}

@@ -1,0 +1,15 @@
+---
+description: Video direction workflow — read AGENTS.md before editing timelines or scenes
+alwaysApply: true
+---
+
+# AI Video Director
+
+Follow **`AGENTS.md`** at the repo root for the full director workflow (script → beats → timeline → scene → render).
+
+Quick rules:
+
+- **Timeline source of truth:** `content/<topic>/timeline.json` (build with `npm run timeline:build`).
+- **Captions:** 1–2 words, pop animation — see `src/components/PopCaptions.tsx`.
+- **3D:** procedural geometry in `src/scene/`; sync motion to `events[]` frame ranges.
+- **No reference MP4 in git** — inspiration link only in docs.

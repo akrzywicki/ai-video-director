@@ -1,0 +1,320 @@
+{
+  "id": "pool-build",
+  "title": "How a backyard pool gets built",
+  "fps": 30,
+  "durationInFrames": 750,
+  "composition": {
+    "width": 1080,
+    "height": 1920
+  },
+  "audio": {
+    "src": "voiceover-silent.mp3",
+    "optional": true
+  },
+  "words": [
+    {
+      "text": "Want",
+      "startFrame": 0,
+      "endFrame": 5
+    },
+    {
+      "text": "a",
+      "startFrame": 6,
+      "endFrame": 7
+    },
+    {
+      "text": "pool?",
+      "startFrame": 8,
+      "endFrame": 15
+    },
+    {
+      "text": "Here's",
+      "startFrame": 16,
+      "endFrame": 21
+    },
+    {
+      "text": "the",
+      "startFrame": 22,
+      "endFrame": 24
+    },
+    {
+      "text": "build.",
+      "startFrame": 25,
+      "endFrame": 31
+    },
+    {
+      "text": "Mark",
+      "startFrame": 32,
+      "endFrame": 37
+    },
+    {
+      "text": "the",
+      "startFrame": 38,
+      "endFrame": 40
+    },
+    {
+      "text": "yard.",
+      "startFrame": 41,
+      "endFrame": 46
+    },
+    {
+      "text": "Dig",
+      "startFrame": 47,
+      "endFrame": 52
+    },
+    {
+      "text": "a",
+      "startFrame": 53,
+      "endFrame": 54
+    },
+    {
+      "text": "deep",
+      "startFrame": 55,
+      "endFrame": 60
+    },
+    {
+      "text": "hole.",
+      "startFrame": 61,
+      "endFrame": 67
+    },
+    {
+      "text": "Dirt",
+      "startFrame": 68,
+      "endFrame": 73
+    },
+    {
+      "text": "chunks",
+      "startFrame": 74,
+      "endFrame": 81
+    },
+    {
+      "text": "fly",
+      "startFrame": 82,
+      "endFrame": 85
+    },
+    {
+      "text": "out.",
+      "startFrame": 86,
+      "endFrame": 92
+    },
+    {
+      "text": "Drop",
+      "startFrame": 93,
+      "endFrame": 97
+    },
+    {
+      "text": "a",
+      "startFrame": 98,
+      "endFrame": 100
+    },
+    {
+      "text": "steel",
+      "startFrame": 101,
+      "endFrame": 106
+    },
+    {
+      "text": "rebar",
+      "startFrame": 107,
+      "endFrame": 115
+    },
+    {
+      "text": "cage.",
+      "startFrame": 116,
+      "endFrame": 123
+    },
+    {
+      "text": "Spray",
+      "startFrame": 124,
+      "endFrame": 130
+    },
+    {
+      "text": "gunite",
+      "startFrame": 131,
+      "endFrame": 139
+    },
+    {
+      "text": "concrete.",
+      "startFrame": 140,
+      "endFrame": 151
+    },
+    {
+      "text": "Smooth",
+      "startFrame": 152,
+      "endFrame": 157
+    },
+    {
+      "text": "the",
+      "startFrame": 158,
+      "endFrame": 160
+    },
+    {
+      "text": "shell.",
+      "startFrame": 161,
+      "endFrame": 169
+    },
+    {
+      "text": "Trench",
+      "startFrame": 170,
+      "endFrame": 175
+    },
+    {
+      "text": "pipes",
+      "startFrame": 176,
+      "endFrame": 183
+    },
+    {
+      "text": "underground.",
+      "startFrame": 184,
+      "endFrame": 196
+    },
+    {
+      "text": "Hook",
+      "startFrame": 197,
+      "endFrame": 202
+    },
+    {
+      "text": "up",
+      "startFrame": 203,
+      "endFrame": 205
+    },
+    {
+      "text": "skimmer",
+      "startFrame": 206,
+      "endFrame": 214
+    },
+    {
+      "text": "lines.",
+      "startFrame": 215,
+      "endFrame": 223
+    },
+    {
+      "text": "Fill",
+      "startFrame": 224,
+      "endFrame": 229
+    },
+    {
+      "text": "with",
+      "startFrame": 230,
+      "endFrame": 234
+    },
+    {
+      "text": "water.",
+      "startFrame": 235,
+      "endFrame": 242
+    },
+    {
+      "text": "Fire",
+      "startFrame": 243,
+      "endFrame": 249
+    },
+    {
+      "text": "up",
+      "startFrame": 250,
+      "endFrame": 252
+    },
+    {
+      "text": "circulation.",
+      "startFrame": 253,
+      "endFrame": 268,
+      "color": "#7dd3fc"
+    },
+    {
+      "text": "Arrows",
+      "startFrame": 269,
+      "endFrame": 276
+    },
+    {
+      "text": "spin",
+      "startFrame": 277,
+      "endFrame": 282
+    },
+    {
+      "text": "the",
+      "startFrame": 283,
+      "endFrame": 285
+    },
+    {
+      "text": "flow.",
+      "startFrame": 286,
+      "endFrame": 292
+    },
+    {
+      "text": "Debris",
+      "startFrame": 293,
+      "endFrame": 301
+    },
+    {
+      "text": "sweeps",
+      "startFrame": 302,
+      "endFrame": 309
+    },
+    {
+      "text": "away.",
+      "startFrame": 310,
+      "endFrame": 316
+    },
+    {
+      "text": "Clean",
+      "startFrame": 317,
+      "endFrame": 324
+    },
+    {
+      "text": "pool.",
+      "startFrame": 325,
+      "endFrame": 331
+    },
+    {
+      "text": "Done.",
+      "startFrame": 332,
+      "endFrame": 337
+    }
+  ],
+  "events": [
+    {
+      "id": "hook-yard",
+      "kind": "yard",
+      "startFrame": 0,
+      "endFrame": 750
+    },
+    {
+      "id": "excavate",
+      "kind": "excavate",
+      "startFrame": 17,
+      "endFrame": 60
+    },
+    {
+      "id": "rebar",
+      "kind": "rebar",
+      "startFrame": 59,
+      "endFrame": 102
+    },
+    {
+      "id": "concrete",
+      "kind": "concrete",
+      "startFrame": 77,
+      "endFrame": 126
+    },
+    {
+      "id": "pipes",
+      "kind": "pipes",
+      "startFrame": 101,
+      "endFrame": 150
+    },
+    {
+      "id": "water",
+      "kind": "water",
+      "startFrame": 122,
+      "endFrame": 195
+    },
+    {
+      "id": "flow",
+      "kind": "flow",
+      "startFrame": 140,
+      "endFrame": 750
+    }
+  ],
+  "meta": {
+    "lastWordEndFrame": 337,
+    "scriptPath": "content/pool-build/script.md"
+  }
+}
